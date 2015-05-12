@@ -1,0 +1,29 @@
+{
+  "name": "canari-reporter-email",
+  "version": "0.1.0",
+  "description": "Email reporter for canari",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtharrison/canari-reporter-email.git"
+  },
+  "keywords": [
+    "graphite",
+    "alerting",
+    "statsd",
+    "monitoring"
+  ],
+  "author": "Matt Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtharrison/canari-reporter-email/issues"
+  },
+  "homepage": "https://github.com/mtharrison/canari-reporter-email",
+  "dependencies": {
+    "joi": "^6.4.1",
+    "nodemailer": "^1.3.4"
+  }
+}
